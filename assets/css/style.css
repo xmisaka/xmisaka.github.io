@@ -268,7 +268,7 @@ body >header{
 	color:#fff;padding:1em 0 .8em;
 }
 @media only screen and (min-width:1024px){
-	body >header{padding:0 0.8em 0 0}
+	body >header{}
 }
 body >header >div{
 	width:95%;
