@@ -27,7 +27,7 @@ redcarpet:
     
 
 title : xisaka's Homepage.
-tagline: 是谁来自山川胡海，却囿于昼夜、厨房与爱。
+tagline: --是谁来自山川胡海，却囿于昼夜、厨房与爱。
 
 defaults:
   -
@@ -84,8 +84,8 @@ author:
   name: yitao      ## e.g. wuchong Author name
   intro_line1:  "Hello ,I'm xmisaka."    ## your introduction on the bottom of the page
   intro_line2:  "This is my blog,which is built to record my Learning."  ## the 2nd line
-  weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+  weibo: zzuwm     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo_verifier: bec8c225 ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
@@ -100,7 +100,7 @@ author:
 
 #### Toc
 toc:
-  article: true   ## show contents in article.
+  article: false   ## show contents in article.
   aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
@@ -108,12 +108,12 @@ toc:
 #### Links
 links:
   码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+  在线API: http://tool.oschina.net/apidocs/
 
 
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: xmisaka   ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
