@@ -2,6 +2,8 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
+gems: [jekyll-paginate]
+
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 
@@ -24,7 +26,7 @@ redcarpet:
     - with_toc_data
     
 
-title : Jekyll Jacman
+title : xisaka's Homepage.
 tagline: A fresh looking and responsive theme for Jekyll
 
 defaults:
