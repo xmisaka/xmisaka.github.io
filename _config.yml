@@ -17,6 +17,7 @@ paginate: 20
 markdown: kramdown
 kramdown:
     input: GFM
+    use_coderay: true
 redcarpet:
   extensions:
     - hard_wrap
