@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 gems: jekyll-paginate
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
 assets: /assets
 baseurl: 
