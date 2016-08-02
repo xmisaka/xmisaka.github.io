@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 gems: jekyll-paginate
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: redcarpet
+highlighter: rouge
 
 assets: /assets
 baseurl: 
@@ -14,7 +14,7 @@ baseurl:
 paginate: 20
 
 # Markdown Processors
-markdown: kramdown
+markdown: redcarpet
 kramdown:
     input: GFM
     use_coderay: true
