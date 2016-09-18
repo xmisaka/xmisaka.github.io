@@ -300,7 +300,7 @@ body >header a{
 	#imglogo img{width:5.5em}
 }
 #textlogo{
-	float:left;width:75%;margin-left:.5em;
+	float:left;width:50%;margin-left:.5em;
 }
 #textlogo h1.site-name{
 	width:86%;font-family:"covered_by_your_graceregular";
